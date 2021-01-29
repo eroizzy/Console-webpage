@@ -1,0 +1,48 @@
+/* DEMO-SPECIFIC STYLES */
+p.typewriter{
+  color: #fff;
+  font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  white-space: nowrap; /* Keeps the content on a single line */  
+  letter-spacing: .15em; /* Adjust as needed */  
+}
+.typewriter.fwd{
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+.typewriter.rev{
+  animation: 
+    revTyping 3.5s steps(30, end) forwards,
+    blink-caret .5s step-end infinite;
+}
+span.typewriter{
+  display: inline-flex;
+ /* Ensures the content is not revealed until the animation */
+ 	overflow: hidden; /* Ensures the content is not revealed until the animation */
+  white-space: nowrap; /* Keeps the content on a single line */
+  letter-spacing: .15em; /* Adjust as needed */ 
+}
+
+.cursor{
+  border-right: .15em solid orange; /* The typwriter cursor */
+  animation:
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0% }
+  to { width: 100% }
+}
+
+@keyframes revTyping {
+  from { width: 100% }
+  to { width: 0% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
