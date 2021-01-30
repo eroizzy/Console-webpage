@@ -6,6 +6,7 @@ p.typewriter{
   white-space: nowrap; /* Keeps the content on a single line */  
   letter-spacing: .15em; /* Adjust as needed */  
   display: table;
+  margin-left: 2px;
 }
 .typewriter.fwd{
   animation: 

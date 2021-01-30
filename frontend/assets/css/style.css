@@ -3,10 +3,39 @@ body {
     padding-top: 5em;
     display: table;
     justify-content: left;
+    background-image: url(http://ass2.eroizzy.com/assets/img/wallpaper.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
 
 div#cmdln-header {
     color: white;
     letter-spacing: .15em;
     font-family: monospace;
+}
+
+div#cmdln {
+    background: #3535357a;
+    border: solid 1px black;
+    box-shadow: 3px 3px 16px -5px black;
+    border-radius: 2px;
+    width: 650px;
+    height: 460px;
+    margin-left: 80px;
+}
+
+div#cmdln-bar {
+    height: 30px;
+    background: #00000091;
+}
+
+.circle-button {
+    float: right;
+    background: #80808094;
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+    margin-top: 5px;
+    border-radius: 10px;
 }
