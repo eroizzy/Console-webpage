@@ -7,7 +7,7 @@ function revTyping(ele){
 }
 $(document).ready(function(){
     $(function() {
-        $("div#cmdln").draggable();
+        $("div#cmdln").draggable({containment:"body"});
     });
     let $base = $("<p></p>").addClass("typewriter");
     let $tbase = $("<span></span>").addClass("typewriter");
