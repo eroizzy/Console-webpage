@@ -1,12 +1,14 @@
 body {
     background: #333;
-    padding-top: 5em;
     display: table;
     justify-content: left;
     background-image: url(http://ass2.eroizzy.com/assets/img/wallpaper.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
 }
 
 div#cmdln-header {
@@ -23,6 +25,9 @@ div#cmdln {
     width: 650px;
     height: 460px;
     margin-left: 80px;
+    position: absolute;
+    top:100px;
+    left: 30px;
 }
 
 div#cmdln-bar {
