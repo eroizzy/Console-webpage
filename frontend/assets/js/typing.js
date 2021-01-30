@@ -22,7 +22,7 @@ $(document).ready(function(){
         {"message":"> https://aws.amazon.com/amazon-linux-2/", "time": 7},
         {"message":"> [root@ec-2.eroizzy.com]:~$ ","type":"curl https://ipecho.net/plain ; echo", "time": 8},
         {"message":"> " + ip, "time": 11},
-        {"message":"> [root@ec-2.eroizzy.com]:~$ ", "type":"", "time": 12},
+        {"message":"> [root@ec-2.eroizzy.com]:~$ ", "type":"&nbsp;", "time": 12},
 
     ];
 
