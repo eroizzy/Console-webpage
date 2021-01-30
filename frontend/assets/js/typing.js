@@ -32,7 +32,7 @@ $(document).ready(function(){
         let $temp = $base.clone().text("");
         if ("message" in cnsl[x] && "type" in cnsl[x]){
             $temp.html(cnsl[x]["message"]);
-            $tbase.clone().addClass("cursor fwd").text(cnsl[x]["type"]).appendTo($temp);
+            $tbase.clone().addClass("cursor fwd").html(cnsl[x]["type"]).appendTo($temp);
         }
         else if ("message" in cnsl[x]){
             $temp.html(cnsl[x]["message"]);
