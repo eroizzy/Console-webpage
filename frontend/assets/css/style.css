@@ -43,3 +43,6 @@ div#cmdln-bar {
     margin-top: 5px;
     border-radius: 10px;
 }
+.circle-button:hover {
+    background: #b9b9b9;
+}
