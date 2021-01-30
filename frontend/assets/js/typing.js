@@ -5,7 +5,9 @@ function revTyping(ele){
     $(".cursor").removeClass("cursor");
     $(ele).replaceWith($(ele).clone().addClass("rev cursor"));
 }
-
+$(function() {
+    $("div#cmdln").draggable();
+});
 let $base = $("<p></p>").addClass("typewriter");
 let $tbase = $("<span></span>").addClass("typewriter");
 
